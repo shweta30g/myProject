@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import {  BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home'
+import Products from './pages/Products'
+import About_Us from './pages/About_Us'
+import Contact from './pages/Contact'
+import VotingParent from './pages/votingParent';
+import QRScanner from './pages/QRScanner';
 
-function App() {
+
+ function App() {
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Switch> 
+        <Route path='/' exact component={Home}/>
+        <Route path='/aboutus' component={About_Us}/>
+        <Route path='/products' component={Products}/>
+        <Route path='/contactus' component={Contact}/>
+        <Route path='/voting' component={VotingParent }/>
+        <Route path='/qrscaner' component={QRScanner}/>
+         
+         
+      </Switch>
+     </Router>
+    </> 
   );
 }
 

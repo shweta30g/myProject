@@ -1,0 +1,38 @@
+.bg_contactFront {
+    /* margin: 5% 25% 0 20%; */
+    width: 45%;
+    border: 1px solid transparent;
+    background: white;
+    line-height: 35px;
+    box-shadow: 0 4px 8px 0 rgba(71 36 88 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 50px !important;
+    padding-top: 25px !important;
+}
+.bg_contactFront, input{
+    padding: 5px;
+    width: 60%;
+}
+.bg_contactBack{
+       width: 50%;
+       text-align: center;
+       color: #060606;
+       background: #ffff;
+       box-shadow: 0 4px 8px 0 rgba(71 36 88 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn_front{
+    background: linear-gradient(90deg, #E80A89 0%, #F15B2A 100%);
+    width: 100px;
+    margin: 15px;
+}
+.btn_back{
+    margin-left: 170px !important;
+    margin-top: 10px;
+    width: 100px;
+    background: linear-gradient(90deg, #E80A89 0%, #F15B2A 100%);
+}
+.input  {
+    margin: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

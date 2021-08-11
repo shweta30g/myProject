@@ -1,0 +1,23 @@
+.image_Aboutus{
+    background-image:  url("../components/asserts/banner2.jpg");
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 65px;
+}
+.content{
+    margin-top: 65px;
+    height: 30rem;
+    /* box-shadow: 0 4px 8px 0 rgba(71 36 88 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin: 80px;
+}
+.content h3{
+    font: italic 1.2em "Fira Sans", serif;
+}
+.content p{
+    font: italic 1.2em "Fira Sans", serif;
+    padding-top: 10px;
+   
+   
+}
