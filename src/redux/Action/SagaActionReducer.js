@@ -11,10 +11,11 @@ export const setUser = (user) => ({
 });
 
 const initialState = {
-  user: undefined
+  user: []
 };
 
-export default (state = initialState, action) => {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default(state = initialState, action) => {
   switch (action.type) {
     case SET_USER:
       const { user } = action;

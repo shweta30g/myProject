@@ -13,7 +13,7 @@ function VotingParent() {
         return () => {
             dispatch(reset());
         }
-    },[]);
+    });
     
     const voters = [
         "Sam ",
